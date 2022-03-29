@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<context:annotation-config/>
+ 
+ 	<bean id="car" class=" com.springcore.SpringResource.Car">
+ 	<property name="company" value="BMW"/>
+ 	<property name="price" value="2800000"/>
+ 
+ 	</bean>
+ 	
+ 	<bean id="eng" class=" com.springcore.SpringResource.Engine">
+  		
+ 	<property name="model_no" value="52522"/>
+ 
+ 	</bean>
+ 	
+ 	<bean id="eng1" class=" com.springcore.SpringResource.Engine">
+  		
+ 	<property name="model_no" value="50501"/>
+ 
+ 	</bean>
+ 
+ 
+</beans>	
+
+ 
+ 
